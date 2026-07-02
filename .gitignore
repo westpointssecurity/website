@@ -1,0 +1,7 @@
+.DS_Store
+*-backup.jpg
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
