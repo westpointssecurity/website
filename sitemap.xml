@@ -2,35 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://westpointsecurity.net/</loc>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://westpointsecurity.net/monitoreo.html</loc>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://westpointsecurity.net/blog.html</loc>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://westpointsecurity.net/blog-mejores-empresas-conserjeria-bogota.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://westpointsecurity.net/blog-conserje-vs-guarda.html</loc>
-    <lastmod>2026-01-15</lastmod>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://westpointsecurity.net/blog-porteria-inteligente-tecnologia.html</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 </urlset>
