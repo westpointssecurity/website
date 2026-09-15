@@ -434,6 +434,28 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 
+#hero .hero-accreditation {
+  margin-top: 28px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255, 196, 81, 0.45);
+}
+
+#hero .hero-accreditation .accreditation-title {
+  margin: 0;
+  color: #ffc451;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+#hero .hero-accreditation .accreditation-detail {
+  margin: 8px 0 0 0;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
 #hero .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
@@ -487,6 +509,16 @@ h1, h2, h3, h4, h5, h6 {
   #hero h2 {
     font-size: 20px;
     line-height: 24px;
+  }
+  #hero .hero-accreditation {
+    margin-top: 20px;
+    padding-top: 16px;
+  }
+  #hero .hero-accreditation .accreditation-title {
+    font-size: 15px;
+  }
+  #hero .hero-accreditation .accreditation-detail {
+    font-size: 13px;
   }
 }
 
