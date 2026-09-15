@@ -2012,6 +2012,14 @@ section {
   color: #6fe39a;
 }
 
+#hero.hero-sales .hero-icons {
+  text-align: center;
+}
+
+#hero.hero-sales .hero-accreditation {
+  margin-left: 0;
+}
+
 @media (max-width: 991px) {
   #hero.hero-sales {
     padding: 120px 0 50px;
