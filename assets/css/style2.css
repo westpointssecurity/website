@@ -1548,3 +1548,413 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# Ofertas de Seguridad Electrónica
+--------------------------------------------------------------*/
+.offers {
+  padding: 60px 0;
+}
+
+.offers .section-title p {
+  text-align: left;
+}
+
+.offer-card {
+  background: #fff;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: all ease-in-out 0.3s;
+  overflow: hidden;
+}
+
+.offer-card:hover {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-8px);
+}
+
+.offer-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background: #ffc451;
+  color: #151515;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 50%;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.offer-header {
+  display: flex;
+  align-items: center;
+  padding: 24px 24px 0 24px;
+}
+
+.offer-header h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #151515;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.offer-media {
+  background: #f7f7f7;
+  margin: 20px 24px 0 24px;
+  padding: 24px 16px;
+  border-radius: 4px;
+  min-height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offer-media img {
+  max-height: 210px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.offer-body {
+  padding: 20px 24px 28px 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: left;
+}
+
+.offer-body > p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #444444;
+  margin-bottom: 18px;
+}
+
+.offer-kicker {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #151515;
+  margin: 0 0 10px 0;
+}
+
+.offer-kicker i {
+  color: #ffc451;
+  margin-right: 6px;
+}
+
+.offer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 18px 0;
+}
+
+.offer-list li {
+  position: relative;
+  padding: 6px 0 6px 26px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #444444;
+}
+
+.offer-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 12px;
+  width: 8px;
+  height: 8px;
+  background: #ffc451;
+  border-radius: 50%;
+}
+
+.offer-note {
+  display: inline-block;
+  background: #151515;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  margin-bottom: 18px;
+}
+
+.offer-price {
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px solid #ebebeb;
+  text-align: center;
+}
+
+.offer-price .from {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 2px;
+}
+
+.offer-price .value {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #151515;
+  line-height: 1.1;
+}
+
+.offer-price .period {
+  font-size: 14px;
+  color: #666;
+}
+
+.offer-price .install {
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #151515;
+}
+
+.offer-price .disclaimer {
+  display: block;
+  margin-top: 4px;
+  font-size: 12px;
+  color: #888;
+  font-style: italic;
+}
+
+.offer-cta {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 4px;
+  margin-top: 16px;
+  background: #ffc451;
+  color: #151515;
+  border: 2px solid #ffc451;
+  transition: 0.3s;
+}
+
+.offer-cta:hover {
+  background: #151515;
+  border-color: #151515;
+  color: #ffc451;
+}
+
+.benefits .icon-box {
+  text-align: center;
+  padding: 30px 20px;
+  border: 1px solid #ebebeb;
+  background: #fff;
+  height: 100%;
+  transition: all ease-in-out 0.3s;
+}
+
+.benefits .icon-box:hover {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.08);
+}
+
+.benefits .icon-box i {
+  font-size: 36px;
+  color: #ffc451;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.benefits .icon-box h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #151515;
+  margin-bottom: 8px;
+}
+
+.benefits .icon-box p {
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .offer-card {
+    margin-bottom: 24px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero de cotización (página de monitoreo)
+--------------------------------------------------------------*/
+#hero.hero-sales {
+  height: auto;
+  min-height: 100vh;
+  padding: 140px 0 70px;
+}
+
+#hero.hero-sales .container {
+  text-align: left;
+}
+
+#hero.hero-sales h1 {
+  font-size: 44px;
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+
+#hero.hero-sales h2 {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0 0 28px 0;
+}
+
+.hero-kicker {
+  color: #ffc451;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 12px 20px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.hero-btn-call {
+  background: #ffc451;
+  color: #151515;
+}
+
+.hero-btn-call:hover {
+  background: #ffd584;
+  color: #151515;
+}
+
+.hero-btn-wa {
+  background: #25d366;
+  color: #fff;
+}
+
+.hero-btn-wa:hover {
+  background: #1ebe5d;
+  color: #fff;
+}
+
+.quote-card {
+  background: #151515;
+  border: 1px solid rgba(255, 196, 81, 0.35);
+  border-radius: 16px;
+  padding: 32px 28px;
+  text-align: left;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
+.quote-card h3 {
+  color: #ffc451;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  margin: 0 0 8px 0;
+}
+
+.quote-card .quote-phone {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.quote-card .quote-phone a {
+  color: #ffc451;
+  font-weight: 700;
+}
+
+.quote-card .quote-or {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.quote-card .form-control {
+  margin-bottom: 12px;
+  height: 46px;
+  border-radius: 8px;
+  border: 0;
+}
+
+.quote-card button[type="submit"] {
+  width: 100%;
+  background: #ffc451;
+  color: #151515;
+  border: 0;
+  border-radius: 50px;
+  padding: 12px 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 4px;
+  transition: 0.3s;
+}
+
+.quote-card button[type="submit"]:hover {
+  background: #ffd584;
+}
+
+.quote-wa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+  color: #25d366;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.quote-wa:hover {
+  color: #6fe39a;
+}
+
+@media (max-width: 991px) {
+  #hero.hero-sales {
+    padding: 120px 0 50px;
+    text-align: center;
+  }
+  #hero.hero-sales .container,
+  #hero.hero-sales .hero-actions {
+    justify-content: center;
+  }
+  #hero.hero-sales h1 {
+    font-size: 32px;
+  }
+}
