@@ -1329,18 +1329,33 @@ section {
 }
 
 .contact .map-embed {
+  display: block;
   width: 100%;
   max-width: 100%;
+  margin: 0;
   overflow: hidden;
   line-height: 0;
 }
 
 .contact .map-embed iframe {
-  width: 100%;
-  max-width: 100%;
-  height: 260px;
-  border: 0;
   display: block;
+  width: 100% !important;
+  max-width: 100%;
+  min-width: 100%;
+  height: 450px;
+  border: 0;
+}
+
+@media (max-width: 991px) {
+  .contact .map-embed iframe {
+    height: 360px;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact .map-embed iframe {
+    height: 280px;
+  }
 }
 
 .contact .info i {
