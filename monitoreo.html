@@ -12,6 +12,28 @@
   gtag('config', 'G-MW3J66BKD9');
   gtag('config', 'AW-11021623976');
 </script>
+<!-- Google tag (gtag.js) event - delayed navigation helper -->
+<script>
+  function gtagSendEvent(url) {
+    var callback = function () {
+      if (typeof url === 'string') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'form_submit', {
+      'event_callback': callback,
+      'event_timeout': 2000,
+    });
+    return false;
+  }
+  document.addEventListener('submit', function (e) {
+    var form = e.target;
+    if (!form || !form.classList || !form.classList.contains('php-email-form2')) return;
+    if (typeof gtag === 'function') {
+      gtag('event', 'form_submit', { 'event_timeout': 2000 });
+    }
+  }, true);
+</script>
 
 
   <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
